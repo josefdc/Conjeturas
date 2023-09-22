@@ -1,5 +1,17 @@
 def collatz(n):
-    """Función que implementa la conjetura de Collatz."""
+    """Implementa la secuencia de la Conjetura de Collatz para un número entero positivo n.
+
+    La conjetura de Collatz, también conocida como la conjetura 3n + 1, sostiene que la siguiente secuencia 
+    eventualmente llegará a 1 para cualquier número entero positivo:
+    1. Si n es par, divídelo por 2.
+    2. Si n es impar, multiplícalo por 3 y súmale 1.
+
+    Parámetros:
+    - n (int): Número entero positivo inicial.
+
+    Retorna:
+    - list: Una lista con la secuencia de Collatz para el número n.
+    """
     sequence = [n]
     while n != 1:
         if n % 2 == 0:  # Si n es par
@@ -9,7 +21,7 @@ def collatz(n):
         sequence.append(n)
     return sequence
 
-if __name__ == "__main__":
+if __name__ == "__main__": # Si se ejecuta este archivo directamente
     while True:
         try:
             num = int(input("Introduce un número positivo entero (0 para salir): "))
