@@ -63,4 +63,4 @@ Esta conjetura sostiene que existen infinitos números primos p tales que p + 2 
 
 ---
 
-Espero que encuentres este repositorio útil e intrigante. ¡Disfruta explorando el maravilloso mundo de las conjeturas matemáticas! 🌟
+Espero que encuentres este repositorio útil e intrigante.
